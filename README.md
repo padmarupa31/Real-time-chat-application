@@ -76,6 +76,32 @@ Visit the following address in your browser:
 ```text
 http://localhost:3000
 ```
+## 🌐 Live Demo
+
+**Try the application here:** [Real-Time Chat Application](https://real-time-chat-application-49jz.onrender.com/)
+
+The application is deployed on **Render** and can be accessed through the live URL above.
+
+## 🚀 Deployment
+
+- **Hosting Platform:** Render
+- **Application Type:** Node.js Web Service
+- **Backend:** Node.js and Express.js
+- **Real-Time Communication:** Socket.IO
+- **Deployment Source:** [GitHub Repository](https://github.com/padmarupa31/Real-time-chat-application)
+
+Open the live demo in two separate browser tabs and enter different usernames to test real-time messaging.
+
+## 📸 Application Screenshots
+
+### 1. Priya Chat View
+
+![Priya Chat View](screenshots/chat-priya.png)
+
+### 2. Padma Chat View
+
+![Padma Chat View](screenshots/chat-padma.png)
+
 
 ## 💡 How It Works
 
