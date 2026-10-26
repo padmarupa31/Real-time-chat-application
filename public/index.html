@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Chat Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="status-dot"></div>
+      <div>
+        <h1>Chat Application</h1>
+        <p>Real-time messaging room</p>
+      </div>
+    </header>
+
+    <label class="username-label" for="username">Your name</label>
+    <input id="username" class="username" maxlength="24" placeholder="Enter your name" value="Guest">
+
+    <section id="messages" aria-live="polite" aria-label="Chat messages"></section>
+
+    <form id="chatForm" class="input-area">
+      <input type="text" id="messageInput" placeholder="Type a message..." autocomplete="off" maxlength="500" required>
+      <button type="submit">Send ➤</button>
+    </form>
+    <p class="hint">Open this page in two browser tabs to test live chat.</p>
+  </main>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

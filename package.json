@@ -1,0 +1,8 @@
+{
+  "name": "experiment-5-real-time-chat",
+  "version": "1.0.0",
+  "description": "Full Stack Development Practical - Experiment 5: Real-Time Chat Application",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": { "express": "^4.21.2", "socket.io": "^4.8.1" }
+}
